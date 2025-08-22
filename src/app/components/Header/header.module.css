@@ -20,6 +20,9 @@
 .resumeButton::before {
   content: "";
   position: absolute;
+  padding: 0.75rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(157, 209, 254, 0.5);
   top: 0;
   left: 0;
   width: 100%;
