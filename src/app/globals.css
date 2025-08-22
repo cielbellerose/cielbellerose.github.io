@@ -61,3 +61,10 @@ body {
 .main-content {
   padding-top: 5rem;
 }
+
+@media (max-width: 400px) {
+  .header-container {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+}

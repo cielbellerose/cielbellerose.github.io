@@ -271,6 +271,10 @@
     font-size: 1.3rem;
   }
 
+  .intro-header {
+    gap: 0rem;
+  }
+
   .intro-photo-container {
     display: none;
   }
@@ -325,5 +329,58 @@
   .skills-column {
     margin-top: 3rem;
     margin-left: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .page-layout {
+    align-items: flex-start;
+  }
+
+  .content-column {
+    margin-left: 0rem;
+  }
+
+  .cards-container {
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+  }
+
+  .intro-section {
+    margin-left: 2rem;
+  }
+
+  .intro-greeting {
+    font-size: 1.2rem;
+  }
+
+  .intro-name {
+    font-size: 2.5rem;
+  }
+
+  .intro-description {
+    font-size: 1.1rem;
+  }
+
+  .skills-container {
+    height: 325px;
+    width: 350px;
+    margin-left: -2.5rem;
+  }
+
+  .education-section {
+    margin-left: -1.6rem;
+    width: 350px;
+  }
+
+  .section-title {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 385px) {
+  .intro-description {
+    font-size: 0.9rem;
   }
 }
