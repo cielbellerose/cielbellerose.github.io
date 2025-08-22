@@ -1,0 +1,21 @@
+.skills-container {
+  width: 100%;
+  margin-left: 2rem;
+  color: var(--text-color);
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .skills-tags {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
