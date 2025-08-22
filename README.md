@@ -2,6 +2,7 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, deployed on GitHub Pages.
 
-Visit the live site: https://cielbellerose.github.io
+Visit the live site: https://cielbellerose.github.io>
 
-<img width="657" height="812" alt="Screenshot 2025-08-22 at 1 53 43 PM" src="https://github.com/user-attachments/assets/488b1a4f-4a24-4ea3-b603-1706225715da" />
+<img width="1200" height="812" alt="Screenshot 2025-08-22 at 1 54 43 PM" src="https://github.com/user-attachments/assets/0d0817f8-7479-4441-bab4-ff2f2a87fc23" />
+
