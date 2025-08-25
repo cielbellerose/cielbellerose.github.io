@@ -5,6 +5,8 @@ import Header from "./components/Header/Header";
 import OrientationAlert from "./components/OrientationAlert";
 import Head from "next/head";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -73,6 +75,8 @@ export default function RootLayout({
         </header>
 
         <main className="main-content">{children}</main>
+        <Analytics />
+        <SpeedInsights />
         <OrientationAlert />
       </body>
     </html>
