@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     siteName: 'Kinsey Bellerose',
     images: [
       {
-        url: 'https://cielbellerose.github.io/assets/social-preview.png',
-        width: 820,
-        height: 429,
+        url: 'https://cielbellerose.github.io/assets/preview.png',
+        width: 1200,
+        height: 630,
         alt: 'Kinsey Bellerose'
       },
     ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary',
     title: 'Kinsey Bellerose',
-    images: ['https://cielbellerose.github.io/assets/social-preview.png'],
+    images: ['https://cielbellerose.github.io/assets/preview.png'],
   },
 };
 
