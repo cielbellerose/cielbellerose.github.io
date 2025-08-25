@@ -16,3 +16,9 @@
 .tag:hover {
   box-shadow: 0 0 10px var(--glow-color);
 }
+
+@media (max-width: 500px) {
+  .tag {
+    font-size: 0.9rem;
+  }
+}

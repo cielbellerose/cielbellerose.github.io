@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
+import OrientationAlert from "./components/OrientationAlert";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,6 +49,7 @@ export default function RootLayout({
         </header>
 
         <main className="main-content">{children}</main>
+        <OrientationAlert />
       </body>
     </html>
   );

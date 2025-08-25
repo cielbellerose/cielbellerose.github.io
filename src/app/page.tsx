@@ -56,7 +56,7 @@ export default function Home() {
                   dates="November 2024 - Present"
                   description="Full-stack developer for a project management dashboard and tech lead for rules dashboard"
                   githubUrl="https://github.com/Northeastern-Electric-Racing/FinishLine"
-                  tags={["TypeScript", "React", "Git"]}
+                  tags={["TypeScript", "Prisma", "React"]}
                   logoUrl="ner.png"
                   logoAlt="NER logo"
                 />
