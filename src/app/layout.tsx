@@ -17,14 +17,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Kinsey Bellerose",
   openGraph: {
-    title: 'Kinsey Bellerose - Portfolio',
+    title: 'Kinsey Bellerose',
+    url: 'https://cielbellerose.github.io/',
+    siteName: 'Kinsey Bellerose',
     images: [
       {
-        url: '/assets/social-preview.png',
+        url: 'https://cielbellerose.github.io/assets/social-preview.png',
         width: 820,
         height: 429,
+        alt: 'Kinsey Bellerose'
       },
     ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Kinsey Bellerose',
+    images: ['https://cielbellerose.github.io/assets/social-preview.png'],
   },
 };
 
