@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({
       {resumeUrl && (
         <a
           href={resumeUrl}
-          download="KinseyBellerose-Resume.pdf"
+          download="Kinsey-Bellerose-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.resumeButton}
