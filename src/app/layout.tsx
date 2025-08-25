@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import OrientationAlert from "./components/OrientationAlert";
+import Head from "next/head";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,9 +47,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preload" href="https://cielbellerose.github.io/assets/socialPreview.png" as="image"></link>
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div style={{ display: 'none' }}>
+          <Image
+            src="/assets/socialPreview.png"
+            alt="Kinsey Bellerose"
+            width={1200}
+            height={630}
+            priority={true}
+          />
+        </div>
         <header className="layout-header">
           <div className="header-container">
             <Header
