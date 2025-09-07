@@ -102,7 +102,7 @@
   color: var(--text-secondary-color);
   margin-left: 2rem;
   margin-right: -2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   margin-top: 2rem;
   overflow: wrap;
 }
@@ -153,6 +153,7 @@
   grid-column: 3;
   grid-row: 1 / span 2; /* Spans both rows */
   align-self: start;
+  padding-right: 1px;
 }
 
 /* Vertifical divider left of skills */
@@ -161,7 +162,7 @@
   position: absolute;
   margin-top: -28px;
   width: 10px;
-  height: 819.5px;
+  height: 812px;
   margin-left: -28px;
   background: var(--divider-color);
 }
@@ -178,7 +179,7 @@
 }
 
 .skills-container {
-  margin-left: -1.5rem;
+  margin-left: -2rem;
   margin-right: 3rem;
   margin-top: -2rem;
 }
@@ -191,7 +192,7 @@
 /* one column per row, skills stay on right */
 @media (max-width: 1000px) {
   .intro-name {
-    font-size: 3.4rem;
+    font-size: 3.05rem;
   }
 
   .cards-container {
@@ -226,18 +227,17 @@
   .skills-container {
     height: 1000px;
     background: var(--content-bg);
-    margin-left: -12.5%;
     margin-right: 0%;
     padding-right: 30px;
   }
 
   .skills-column::before {
-    height: 1202px;
+    height: 1190px;
     z-index: 2;
   }
 }
 
-/* one card per row & skills move down */
+/* one card per row  */
 @media (max-width: 650px) {
   .cards-container {
     grid-template-columns: 1fr; /* Stack cards */
@@ -266,9 +266,10 @@
   }
 }
 
-@media (max-width: 600px) {
+/*Skills move down*/
+@media (max-width: 580px) {
   .intro-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .intro-header {
@@ -305,7 +306,7 @@
 
   .skills-container {
     margin-left: -20px;
-    height: 250px;
+    height: 425px;
     width: 400px;
   }
 
@@ -365,7 +366,7 @@
   }
 
   .skills-container {
-    height: 325px;
+    height: 525px;
     width: 350px;
     margin-left: -2.5rem;
   }
@@ -381,6 +382,9 @@
 }
 
 @media (max-width: 385px) {
+  .intro-name {
+    font-size: 2rem;
+  }
   .intro-description {
     font-size: 0.9rem;
   }

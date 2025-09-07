@@ -1,8 +1,7 @@
 .card {
   --card-margin: 0.5rem;
   --card-line-height: 1.1;
-  width: 100%;
-  max-width: 325px;
+  width: 325px;
   min-height: 100px;
   padding: 1rem;
   background: var(--foreground);
@@ -106,9 +105,9 @@
 }
 
 .card-tags {
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
   display: flex;
-  gap: 0.75rem;
+  gap: 0.4rem;
 }
 
 .footer-container {
@@ -134,10 +133,6 @@
 }
 
 @media (max-width: 1000px) {
-  .card {
-    width: 350px;
-  }
-
   .card-image-container {
     width: 100%;
   }
@@ -146,8 +141,5 @@
 @media (max-width: 500px) {
   .title-image-container {
     display: none;
-  }
-  .card-tags {
-    gap: 0.5rem;
   }
 }

@@ -89,8 +89,12 @@ export default function Home() {
               <div className="skills-container">
                 <div className="skills-title">Programming Languages</div>
                 <Skills tags={["TypeScript", "Java", "Python", "C++", "CSS"]} />
-                <div className="skills-title">Frontend Frameworks</div>
-                <Skills tags={["React", "Next.js", "Tailwind CSS"]} />
+                <div className="skills-title">Frontend</div>
+                <Skills tags={["React", "Next.js"]} />
+                <div className="skills-title">Backend</div>
+                <Skills tags={["Node.js", "Express.js", "Prisma", "PostgreSQL"]} />
+                <div className="skills-title">Developer Tools</div>
+                <Skills tags={["Vercel", "Git", "Postman"]} />
                 <div className="skills-title">Certifications</div>
                 <Skills
                   tags={[
