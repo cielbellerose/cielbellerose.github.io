@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS, deployed on GitHub Pages.
+A modern, responsive portfolio website built with Next.js and TypeScript, deployed on GitHub Pages.
 
 Visit the live site: https://cielbellerose.github.io
 
